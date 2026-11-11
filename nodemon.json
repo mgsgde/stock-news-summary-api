@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ignore": ["src/generated", "src/__tests__"],
+  "ext": "ts",
+  "exec": "tsoa spec-and-routes && tsx src/index.ts"
+}

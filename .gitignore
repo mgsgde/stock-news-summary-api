@@ -1,0 +1,12 @@
+# Local notes, never committed
+privat/
+
+node_modules/
+.env
+*.sqlite
+
+# Build and runtime output
+dist/
+src/generated/
+data/
+coverage/

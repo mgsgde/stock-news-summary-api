@@ -1,0 +1,7 @@
+dist/
+node_modules/
+src/generated/
+coverage/
+data/
+privat/
+package-lock.json
