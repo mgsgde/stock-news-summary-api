@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    env_file: .env
+    environment:
+      # The container always listens on 3000, whatever PORT says in .env. PORT only moves the host side.
+      PORT: '3000'
+    ports:
+      - '${PORT:-3000}:3000'
+    volumes:
+      - app-data:/app/data
+
+volumes:
+  app-data:
